@@ -4,7 +4,6 @@ import Login from "./Components/Login"
 import EMSWelcomePage from "./Components/EMSWelcomePage"
 import Home from "./Components/Home"
 import Update from "./Components/Update"
-import About from "./Components/About"
 
 
 const App=()=> {
@@ -17,7 +16,6 @@ const App=()=> {
             <Route path="/register" element={<Registration />}></Route>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/update" element={<Update />}></Route>
-            <Route path="/about" element={<About />}/>
             {/* <Route path="/contact" element={<Conta />}/> */}
            </Routes>
         </BrowserRouter>
